@@ -1,0 +1,8 @@
+runs:
+- name: Pixel Classification Batch
+  macro: ./macros/pixel_classification.ijm
+  outputs: [{path: ./tmp/pixel_classification_result.h5, dataset: exported_data}]
+  reference_outputs: [{path: ./projects/data/drosophila_00-03-exported_data_pixel_classification_reference.h5, dataset: exported_data}]
+
+
+
